@@ -164,7 +164,7 @@ def load_data(city):
     df - dataframe to be used to calculate all stats
 
     """
-    print('\nLoading the data...\n')
+    print('\nLoading data...\n')
     df = pd.read_csv(city)
 
     #add datetime format to permit easy filtering
