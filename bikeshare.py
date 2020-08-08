@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-## Filenames
+## CityFilenames
 chicago = 'chicago.csv'
 new_york_city = 'new_york_city.csv'
 washington = 'washington.csv'
@@ -164,7 +164,7 @@ def load_data(city):
     df - dataframe to be used to calculate all stats
 
     """
-    print('\nLoading the data...\n')
+    print('\nLoading data...\n')
     df = pd.read_csv(city)
 
     #add datetime format to permit easy filtering
